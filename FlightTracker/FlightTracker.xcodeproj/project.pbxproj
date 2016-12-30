@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832122FF1E1729C40053423C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 832122FE1E1729C40053423C /* main.m */; };
+		832123021E1729C40053423C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 832123011E1729C40053423C /* AppDelegate.m */; };
+		832123051E1729C40053423C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832123041E1729C40053423C /* FirstViewController.m */; };
+		832123081E1729C40053423C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832123071E1729C40053423C /* SecondViewController.m */; };
+		8321230B1E1729C40053423C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832123091E1729C40053423C /* Main.storyboard */; };
+		8321230D1E1729C40053423C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8321230C1E1729C40053423C /* Assets.xcassets */; };
+		832123101E1729C40053423C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8321230E1E1729C40053423C /* LaunchScreen.storyboard */; };
+		8321231B1E1729C40053423C /* FlightTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8321231A1E1729C40053423C /* FlightTrackerTests.m */; };
+		832123261E1729C40053423C /* FlightTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832123251E1729C40053423C /* FlightTrackerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		832123171E1729C40053423C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832122F21E1729C40053423C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832122F91E1729C40053423C;
+			remoteInfo = FlightTracker;
+		};
+		832123221E1729C40053423C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832122F21E1729C40053423C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832122F91E1729C40053423C;
+			remoteInfo = FlightTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		832122FA1E1729C40053423C /* FlightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		832122FE1E1729C40053423C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		832123001E1729C40053423C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		832123011E1729C40053423C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		832123031E1729C40053423C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		832123041E1729C40053423C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		832123061E1729C40053423C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		832123071E1729C40053423C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8321230A1E1729C40053423C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8321230C1E1729C40053423C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8321230F1E1729C40053423C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		832123111E1729C40053423C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832123161E1729C40053423C /* FlightTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8321231A1E1729C40053423C /* FlightTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerTests.m; sourceTree = "<group>"; };
+		8321231C1E1729C40053423C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832123211E1729C40053423C /* FlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		832123251E1729C40053423C /* FlightTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerUITests.m; sourceTree = "<group>"; };
+		832123271E1729C40053423C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832122F71E1729C40053423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832123131E1729C40053423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8321231E1E1729C40053423C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		832122F11E1729C40053423C = {
+			isa = PBXGroup;
+			children = (
+				832122FC1E1729C40053423C /* FlightTracker */,
+				832123191E1729C40053423C /* FlightTrackerTests */,
+				832123241E1729C40053423C /* FlightTrackerUITests */,
+				832122FB1E1729C40053423C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		832122FB1E1729C40053423C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832122FA1E1729C40053423C /* FlightTracker.app */,
+				832123161E1729C40053423C /* FlightTrackerTests.xctest */,
+				832123211E1729C40053423C /* FlightTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832122FC1E1729C40053423C /* FlightTracker */ = {
+			isa = PBXGroup;
+			children = (
+				832123001E1729C40053423C /* AppDelegate.h */,
+				832123011E1729C40053423C /* AppDelegate.m */,
+				832123031E1729C40053423C /* FirstViewController.h */,
+				832123041E1729C40053423C /* FirstViewController.m */,
+				832123061E1729C40053423C /* SecondViewController.h */,
+				832123071E1729C40053423C /* SecondViewController.m */,
+				832123091E1729C40053423C /* Main.storyboard */,
+				8321230C1E1729C40053423C /* Assets.xcassets */,
+				8321230E1E1729C40053423C /* LaunchScreen.storyboard */,
+				832123111E1729C40053423C /* Info.plist */,
+				832122FD1E1729C40053423C /* Supporting Files */,
+			);
+			path = FlightTracker;
+			sourceTree = "<group>";
+		};
+		832122FD1E1729C40053423C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				832122FE1E1729C40053423C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		832123191E1729C40053423C /* FlightTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8321231A1E1729C40053423C /* FlightTrackerTests.m */,
+				8321231C1E1729C40053423C /* Info.plist */,
+			);
+			path = FlightTrackerTests;
+			sourceTree = "<group>";
+		};
+		832123241E1729C40053423C /* FlightTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				832123251E1729C40053423C /* FlightTrackerUITests.m */,
+				832123271E1729C40053423C /* Info.plist */,
+			);
+			path = FlightTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832122F91E1729C40053423C /* FlightTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8321232A1E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTracker" */;
+			buildPhases = (
+				832122F61E1729C40053423C /* Sources */,
+				832122F71E1729C40053423C /* Frameworks */,
+				832122F81E1729C40053423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightTracker;
+			productName = FlightTracker;
+			productReference = 832122FA1E1729C40053423C /* FlightTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		832123151E1729C40053423C /* FlightTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8321232D1E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */;
+			buildPhases = (
+				832123121E1729C40053423C /* Sources */,
+				832123131E1729C40053423C /* Frameworks */,
+				832123141E1729C40053423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832123181E1729C40053423C /* PBXTargetDependency */,
+			);
+			name = FlightTrackerTests;
+			productName = FlightTrackerTests;
+			productReference = 832123161E1729C40053423C /* FlightTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		832123201E1729C40053423C /* FlightTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832123301E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */;
+			buildPhases = (
+				8321231D1E1729C40053423C /* Sources */,
+				8321231E1E1729C40053423C /* Frameworks */,
+				8321231F1E1729C40053423C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832123231E1729C40053423C /* PBXTargetDependency */,
+			);
+			name = FlightTrackerUITests;
+			productName = FlightTrackerUITests;
+			productReference = 832123211E1729C40053423C /* FlightTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832122F21E1729C40053423C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Suvayan Roy";
+				TargetAttributes = {
+					832122F91E1729C40053423C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					832123151E1729C40053423C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 832122F91E1729C40053423C;
+					};
+					832123201E1729C40053423C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 832122F91E1729C40053423C;
+					};
+				};
+			};
+			buildConfigurationList = 832122F51E1729C40053423C /* Build configuration list for PBXProject "FlightTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 832122F11E1729C40053423C;
+			productRefGroup = 832122FB1E1729C40053423C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832122F91E1729C40053423C /* FlightTracker */,
+				832123151E1729C40053423C /* FlightTrackerTests */,
+				832123201E1729C40053423C /* FlightTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832122F81E1729C40053423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832123101E1729C40053423C /* LaunchScreen.storyboard in Resources */,
+				8321230D1E1729C40053423C /* Assets.xcassets in Resources */,
+				8321230B1E1729C40053423C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832123141E1729C40053423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8321231F1E1729C40053423C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832122F61E1729C40053423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832123081E1729C40053423C /* SecondViewController.m in Sources */,
+				832123021E1729C40053423C /* AppDelegate.m in Sources */,
+				832123051E1729C40053423C /* FirstViewController.m in Sources */,
+				832122FF1E1729C40053423C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832123121E1729C40053423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8321231B1E1729C40053423C /* FlightTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8321231D1E1729C40053423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832123261E1729C40053423C /* FlightTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		832123181E1729C40053423C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832122F91E1729C40053423C /* FlightTracker */;
+			targetProxy = 832123171E1729C40053423C /* PBXContainerItemProxy */;
+		};
+		832123231E1729C40053423C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832122F91E1729C40053423C /* FlightTracker */;
+			targetProxy = 832123221E1729C40053423C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		832123091E1729C40053423C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8321230A1E1729C40053423C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8321230E1E1729C40053423C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8321230F1E1729C40053423C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		832123281E1729C40053423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		832123291E1729C40053423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8321232B1E1729C40053423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8321232C1E1729C40053423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlightTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8321232E1E1729C40053423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTracker.app/FlightTracker";
+			};
+			name = Debug;
+		};
+		8321232F1E1729C40053423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlightTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightTracker.app/FlightTracker";
+			};
+			name = Release;
+		};
+		832123311E1729C40053423C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightTracker;
+			};
+			name = Debug;
+		};
+		832123321E1729C40053423C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlightTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlightTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832122F51E1729C40053423C /* Build configuration list for PBXProject "FlightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832123281E1729C40053423C /* Debug */,
+				832123291E1729C40053423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8321232A1E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8321232B1E1729C40053423C /* Debug */,
+				8321232C1E1729C40053423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8321232D1E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8321232E1E1729C40053423C /* Debug */,
+				8321232F1E1729C40053423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		832123301E1729C40053423C /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832123311E1729C40053423C /* Debug */,
+				832123321E1729C40053423C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832122F21E1729C40053423C /* Project object */;
+}
