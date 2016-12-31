@@ -16,6 +16,7 @@
 		83C31C0A1E173697009B66B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C31C081E173697009B66B2 /* LaunchScreen.storyboard */; };
 		83C31C151E173698009B66B2 /* FlightTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C141E173698009B66B2 /* FlightTrackerTests.m */; };
 		83C31C201E173698009B66B2 /* FlightTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C1F1E173698009B66B2 /* FlightTrackerUITests.m */; };
+		83C9517D1E17782E00A30D9E /* CCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C2E1E1764E0009B66B2 /* CCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		83C31C1B1E173698009B66B2 /* FlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C31C1F1E173698009B66B2 /* FlightTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerUITests.m; sourceTree = "<group>"; };
 		83C31C211E173698009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C31C2D1E1764D2009B66B2 /* CCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCell.h; sourceTree = "<group>"; };
+		83C31C2E1E1764E0009B66B2 /* CCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 			children = (
 				83C31BFA1E173697009B66B2 /* AppDelegate.h */,
 				83C31BFB1E173697009B66B2 /* AppDelegate.m */,
+				83C31C2D1E1764D2009B66B2 /* CCell.h */,
+				83C31C2E1E1764E0009B66B2 /* CCell.m */,
 				83C31BFD1E173697009B66B2 /* MasterViewController.h */,
 				83C31BFE1E173697009B66B2 /* MasterViewController.m */,
 				83C31C001E173697009B66B2 /* DetailViewController.h */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C9517D1E17782E00A30D9E /* CCell.m in Sources */,
 				83C31BFC1E173697009B66B2 /* AppDelegate.m in Sources */,
 				83C31BFF1E173697009B66B2 /* MasterViewController.m in Sources */,
 				83C31BF91E173697009B66B2 /* main.m in Sources */,
@@ -432,6 +438,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlightTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -443,6 +453,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlightTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FlightTrack.FlightTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -513,6 +527,7 @@
 				83C31C261E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C31C271E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +536,7 @@
 				83C31C291E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C31C2A1E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +545,7 @@
 				83C31C2C1E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
