@@ -106,12 +106,13 @@ NSArray* arraytoinsert = nil;
     NSArray *object = self.objects[indexPath.row];
     //NSDate *object = self.objects[indexPath.row];
     //cell.textLabel.text = [object description];
-    NSString *display = [NSString stringWithFormat:@"%@ %@\n%@-->%@", object[0], object[1], object[2],object[11]];
+    NSString *display = [NSString stringWithFormat:@"%@ %@\n%@ → %@", object[0], object[1], object[2],object[11]];
+    NSString *display2 = [NSString stringWithFormat:@"↑%@ ↓%@", [object[6] substringToIndex:5], [object[14] substringToIndex:5]];
     cell.textLabel.numberOfLines = 0;
     //cell.label1.text = display;
     cell.textLabel.text = display;
-    cell.label2.text = @"foo";
-    //cell.detailTextLabel.text = @"foo";
+    cell.label2.text = object[5];
+    cell.detailTextLabel.text = display2;
     
 
     return cell;
