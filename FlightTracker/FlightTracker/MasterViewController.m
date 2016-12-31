@@ -29,15 +29,18 @@
     
 }
 
+NSArray* arraytoinsert = nil;
+
 -(void)addfromTripit {
     // do a thing
-    NSString *info = [NSString stringWithFormat:@"AA|4406|DCA|C|35|2016-12-30|19:30:00|2016-12-30|19:30:00|2016-12-30|19:44:00|JFK|31A|2016-12-30|20:56:00|2016-12-30|20:56:00|2016-12-30|21:51:00|E75|1\nDL|123|CDG|||2017-01-10|12:10:00|||||ORD||2017-01-10|14:59:00|||||76W|0\nDL|1368|LGA|||2017-02-16|14:47:00|||||DTW||2017-02-16|16:57:00|||||M88|0\nDL|134|DTW|||2017-02-16|18:07:00|||||AMS||2017-02-17|08:00:00|||||333|0\nKL|1975|AMS|||2017-02-17|10:05:00|||||BUD||2017-02-17|12:05:00|||||73J|0\nKL|1972|BUD|||2017-02-21|06:30:00|||||AMS||2017-02-21|08:45:00|||||73H|0\nDL|137|AMS|||2017-02-21|13:00:00|||||DTW||2017-02-21|16:01:00|||||333|0\nDL|582|DTW|||2017-02-21|17:30:00|||||LGA||2017-02-21|19:23:00|||||M88|0\n"];
+    NSString *info = [NSString stringWithFormat:@"AA|4406|DCA|C|35|2016-12-30|19:30:00|2016-12-30|19:30:00|2016-12-30|19:44:00|JFK|31A|2016-12-30|20:56:00|2016-12-30|20:56:00|2016-12-30|21:51:00|E75|1\nDL|123|CDG|||2017-01-10|12:10:00|||||ORD||2017-01-10|14:59:00|||||76W|0\nDL|1368|LGA|||2017-02-16|14:47:00|||||DTW||2017-02-16|16:57:00|||||M88|0\nDL|134|DTW|||2017-02-16|18:07:00|||||AMS||2017-02-17|08:00:00|||||333|0\nKL|1975|AMS|||2017-02-17|10:05:00|||||BUD||2017-02-17|12:05:00|||||73J|0\nKL|1972|BUD|||2017-02-21|06:30:00|||||AMS||2017-02-21|08:45:00|||||73H|0\nDL|137|AMS|||2017-02-21|13:00:00|||||DTW||2017-02-21|16:01:00|||||333|0\nDL|582|DTW|||2017-02-21|17:30:00|||||LGA||2017-02-21|19:23:00|||||M88|0"];
     NSLog(@"%@", info);
     NSArray *vals = [info componentsSeparatedByString:@"\n"];
     NSLog(@"%@", vals);
-    for (id tempObject in vals) {
-        NSLog(@"go");
-        NSLog(@"Single element: %@", tempObject);
+    for (id row in vals) {
+        NSArray *stringArray = [row componentsSeparatedByString: @"|"];
+        arraytoinsert = stringArray;
+        [self insertNewObject:arraytoinsert];
     }
 }
 
@@ -54,13 +57,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-NSString *stringtoinsert = @"2d354bf4c27089818a44314eb9f68ac4";
+
 
 - (void)insertNewObject:(id)sender {
     if (!self.objects) {
         self.objects = [[NSMutableArray alloc] init];
     }
-    [self.objects insertObject:stringtoinsert atIndex:0];
+    [self.objects insertObject:arraytoinsert atIndex:0];
     //[self.objects insertObject:[NSDate date] atIndex:0];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
@@ -72,7 +75,8 @@ NSString *stringtoinsert = @"2d354bf4c27089818a44314eb9f68ac4";
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSString *object = self.objects[indexPath.row];
+        NSArray *object = self.objects[indexPath.row];
+        NSLog(@"%@", object);
         //NSDate *object = self.objects[indexPath.row];
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
         [controller setDetailItem:object];
@@ -96,9 +100,11 @@ NSString *stringtoinsert = @"2d354bf4c27089818a44314eb9f68ac4";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    NSString *object = self.objects[indexPath.row];
+    NSArray *object = self.objects[indexPath.row];
     //NSDate *object = self.objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    //cell.textLabel.text = [object description];
+    NSString *display = [NSString stringWithFormat:@"%@ %@", object[0], object[1]];
+    cell.textLabel.text = display;
     return cell;
 }
 
