@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ViewController.h
 //  FlightTracker
 //
 //  Created by Suvayan Roy on 12/30/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ViewController : UIViewController
 
 
 @end

@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  ViewController.m
 //  FlightTracker
 //
 //  Created by Suvayan Roy on 12/30/16.
 //  Copyright © 2016 Suvayan Roy. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ViewController.h"
 
-@interface SecondViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
