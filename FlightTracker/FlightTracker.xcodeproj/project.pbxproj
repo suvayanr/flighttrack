@@ -7,68 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83C31BBA1E17327F009B66B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BB91E17327F009B66B2 /* main.m */; };
-		83C31BBD1E17327F009B66B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BBC1E17327F009B66B2 /* AppDelegate.m */; };
-		83C31BC01E17327F009B66B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BBF1E17327F009B66B2 /* ViewController.m */; };
-		83C31BC31E17327F009B66B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C31BC11E17327F009B66B2 /* Main.storyboard */; };
-		83C31BC51E17327F009B66B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C31BC41E17327F009B66B2 /* Assets.xcassets */; };
-		83C31BC81E17327F009B66B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C31BC61E17327F009B66B2 /* LaunchScreen.storyboard */; };
-		83C31BD31E17327F009B66B2 /* FlightTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BD21E17327F009B66B2 /* FlightTrackerTests.m */; };
-		83C31BDE1E17327F009B66B2 /* FlightTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BDD1E17327F009B66B2 /* FlightTrackerUITests.m */; };
+		83C31BF91E173697009B66B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BF81E173697009B66B2 /* main.m */; };
+		83C31BFC1E173697009B66B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BFB1E173697009B66B2 /* AppDelegate.m */; };
+		83C31BFF1E173697009B66B2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31BFE1E173697009B66B2 /* MasterViewController.m */; };
+		83C31C021E173697009B66B2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C011E173697009B66B2 /* DetailViewController.m */; };
+		83C31C051E173697009B66B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C31C031E173697009B66B2 /* Main.storyboard */; };
+		83C31C071E173697009B66B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C31C061E173697009B66B2 /* Assets.xcassets */; };
+		83C31C0A1E173697009B66B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C31C081E173697009B66B2 /* LaunchScreen.storyboard */; };
+		83C31C151E173698009B66B2 /* FlightTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C141E173698009B66B2 /* FlightTrackerTests.m */; };
+		83C31C201E173698009B66B2 /* FlightTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C31C1F1E173698009B66B2 /* FlightTrackerUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83C31BCF1E17327F009B66B2 /* PBXContainerItemProxy */ = {
+		83C31C111E173698009B66B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83C31BAD1E17327F009B66B2 /* Project object */;
+			containerPortal = 83C31BEC1E173697009B66B2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83C31BB41E17327F009B66B2;
+			remoteGlobalIDString = 83C31BF31E173697009B66B2;
 			remoteInfo = FlightTracker;
 		};
-		83C31BDA1E17327F009B66B2 /* PBXContainerItemProxy */ = {
+		83C31C1C1E173698009B66B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 83C31BAD1E17327F009B66B2 /* Project object */;
+			containerPortal = 83C31BEC1E173697009B66B2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 83C31BB41E17327F009B66B2;
+			remoteGlobalIDString = 83C31BF31E173697009B66B2;
 			remoteInfo = FlightTracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83C31BB51E17327F009B66B2 /* FlightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C31BB91E17327F009B66B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		83C31BBB1E17327F009B66B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		83C31BBC1E17327F009B66B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83C31BBE1E17327F009B66B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83C31BBF1E17327F009B66B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		83C31BC21E17327F009B66B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83C31BC41E17327F009B66B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83C31BC71E17327F009B66B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83C31BC91E17327F009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83C31BCE1E17327F009B66B2 /* FlightTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C31BD21E17327F009B66B2 /* FlightTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerTests.m; sourceTree = "<group>"; };
-		83C31BD41E17327F009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83C31BD91E17327F009B66B2 /* FlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C31BDD1E17327F009B66B2 /* FlightTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerUITests.m; sourceTree = "<group>"; };
-		83C31BDF1E17327F009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C31BF41E173697009B66B2 /* FlightTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C31BF81E173697009B66B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83C31BFA1E173697009B66B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83C31BFB1E173697009B66B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83C31BFD1E173697009B66B2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		83C31BFE1E173697009B66B2 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		83C31C001E173697009B66B2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		83C31C011E173697009B66B2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		83C31C041E173697009B66B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C31C061E173697009B66B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C31C091E173697009B66B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C31C0B1E173697009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C31C101E173698009B66B2 /* FlightTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C31C141E173698009B66B2 /* FlightTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerTests.m; sourceTree = "<group>"; };
+		83C31C161E173698009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C31C1B1E173698009B66B2 /* FlightTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C31C1F1E173698009B66B2 /* FlightTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightTrackerUITests.m; sourceTree = "<group>"; };
+		83C31C211E173698009B66B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83C31BB21E17327F009B66B2 /* Frameworks */ = {
+		83C31BF11E173697009B66B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BCB1E17327F009B66B2 /* Frameworks */ = {
+		83C31C0D1E173698009B66B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BD61E17327F009B66B2 /* Frameworks */ = {
+		83C31C181E173698009B66B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +81,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83C31BAC1E17327F009B66B2 = {
+		83C31BEB1E173697009B66B2 = {
 			isa = PBXGroup;
 			children = (
-				83C31BB71E17327F009B66B2 /* FlightTracker */,
-				83C31BD11E17327F009B66B2 /* FlightTrackerTests */,
-				83C31BDC1E17327F009B66B2 /* FlightTrackerUITests */,
-				83C31BB61E17327F009B66B2 /* Products */,
+				83C31BF61E173697009B66B2 /* FlightTracker */,
+				83C31C131E173698009B66B2 /* FlightTrackerTests */,
+				83C31C1E1E173698009B66B2 /* FlightTrackerUITests */,
+				83C31BF51E173697009B66B2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83C31BB61E17327F009B66B2 /* Products */ = {
+		83C31BF51E173697009B66B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83C31BB51E17327F009B66B2 /* FlightTracker.app */,
-				83C31BCE1E17327F009B66B2 /* FlightTrackerTests.xctest */,
-				83C31BD91E17327F009B66B2 /* FlightTrackerUITests.xctest */,
+				83C31BF41E173697009B66B2 /* FlightTracker.app */,
+				83C31C101E173698009B66B2 /* FlightTrackerTests.xctest */,
+				83C31C1B1E173698009B66B2 /* FlightTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83C31BB71E17327F009B66B2 /* FlightTracker */ = {
+		83C31BF61E173697009B66B2 /* FlightTracker */ = {
 			isa = PBXGroup;
 			children = (
-				83C31BBB1E17327F009B66B2 /* AppDelegate.h */,
-				83C31BBC1E17327F009B66B2 /* AppDelegate.m */,
-				83C31BBE1E17327F009B66B2 /* ViewController.h */,
-				83C31BBF1E17327F009B66B2 /* ViewController.m */,
-				83C31BC11E17327F009B66B2 /* Main.storyboard */,
-				83C31BC41E17327F009B66B2 /* Assets.xcassets */,
-				83C31BC61E17327F009B66B2 /* LaunchScreen.storyboard */,
-				83C31BC91E17327F009B66B2 /* Info.plist */,
-				83C31BB81E17327F009B66B2 /* Supporting Files */,
+				83C31BFA1E173697009B66B2 /* AppDelegate.h */,
+				83C31BFB1E173697009B66B2 /* AppDelegate.m */,
+				83C31BFD1E173697009B66B2 /* MasterViewController.h */,
+				83C31BFE1E173697009B66B2 /* MasterViewController.m */,
+				83C31C001E173697009B66B2 /* DetailViewController.h */,
+				83C31C011E173697009B66B2 /* DetailViewController.m */,
+				83C31C031E173697009B66B2 /* Main.storyboard */,
+				83C31C061E173697009B66B2 /* Assets.xcassets */,
+				83C31C081E173697009B66B2 /* LaunchScreen.storyboard */,
+				83C31C0B1E173697009B66B2 /* Info.plist */,
+				83C31BF71E173697009B66B2 /* Supporting Files */,
 			);
 			path = FlightTracker;
 			sourceTree = "<group>";
 		};
-		83C31BB81E17327F009B66B2 /* Supporting Files */ = {
+		83C31BF71E173697009B66B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83C31BB91E17327F009B66B2 /* main.m */,
+				83C31BF81E173697009B66B2 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		83C31BD11E17327F009B66B2 /* FlightTrackerTests */ = {
+		83C31C131E173698009B66B2 /* FlightTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				83C31BD21E17327F009B66B2 /* FlightTrackerTests.m */,
-				83C31BD41E17327F009B66B2 /* Info.plist */,
+				83C31C141E173698009B66B2 /* FlightTrackerTests.m */,
+				83C31C161E173698009B66B2 /* Info.plist */,
 			);
 			path = FlightTrackerTests;
 			sourceTree = "<group>";
 		};
-		83C31BDC1E17327F009B66B2 /* FlightTrackerUITests */ = {
+		83C31C1E1E173698009B66B2 /* FlightTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				83C31BDD1E17327F009B66B2 /* FlightTrackerUITests.m */,
-				83C31BDF1E17327F009B66B2 /* Info.plist */,
+				83C31C1F1E173698009B66B2 /* FlightTrackerUITests.m */,
+				83C31C211E173698009B66B2 /* Info.plist */,
 			);
 			path = FlightTrackerUITests;
 			sourceTree = "<group>";
@@ -143,13 +148,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83C31BB41E17327F009B66B2 /* FlightTracker */ = {
+		83C31BF31E173697009B66B2 /* FlightTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83C31BE21E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTracker" */;
+			buildConfigurationList = 83C31C241E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTracker" */;
 			buildPhases = (
-				83C31BB11E17327F009B66B2 /* Sources */,
-				83C31BB21E17327F009B66B2 /* Frameworks */,
-				83C31BB31E17327F009B66B2 /* Resources */,
+				83C31BF01E173697009B66B2 /* Sources */,
+				83C31BF11E173697009B66B2 /* Frameworks */,
+				83C31BF21E173697009B66B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,71 +162,71 @@
 			);
 			name = FlightTracker;
 			productName = FlightTracker;
-			productReference = 83C31BB51E17327F009B66B2 /* FlightTracker.app */;
+			productReference = 83C31BF41E173697009B66B2 /* FlightTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83C31BCD1E17327F009B66B2 /* FlightTrackerTests */ = {
+		83C31C0F1E173698009B66B2 /* FlightTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83C31BE51E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */;
+			buildConfigurationList = 83C31C271E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */;
 			buildPhases = (
-				83C31BCA1E17327F009B66B2 /* Sources */,
-				83C31BCB1E17327F009B66B2 /* Frameworks */,
-				83C31BCC1E17327F009B66B2 /* Resources */,
+				83C31C0C1E173698009B66B2 /* Sources */,
+				83C31C0D1E173698009B66B2 /* Frameworks */,
+				83C31C0E1E173698009B66B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83C31BD01E17327F009B66B2 /* PBXTargetDependency */,
+				83C31C121E173698009B66B2 /* PBXTargetDependency */,
 			);
 			name = FlightTrackerTests;
 			productName = FlightTrackerTests;
-			productReference = 83C31BCE1E17327F009B66B2 /* FlightTrackerTests.xctest */;
+			productReference = 83C31C101E173698009B66B2 /* FlightTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83C31BD81E17327F009B66B2 /* FlightTrackerUITests */ = {
+		83C31C1A1E173698009B66B2 /* FlightTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83C31BE81E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */;
+			buildConfigurationList = 83C31C2A1E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */;
 			buildPhases = (
-				83C31BD51E17327F009B66B2 /* Sources */,
-				83C31BD61E17327F009B66B2 /* Frameworks */,
-				83C31BD71E17327F009B66B2 /* Resources */,
+				83C31C171E173698009B66B2 /* Sources */,
+				83C31C181E173698009B66B2 /* Frameworks */,
+				83C31C191E173698009B66B2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83C31BDB1E17327F009B66B2 /* PBXTargetDependency */,
+				83C31C1D1E173698009B66B2 /* PBXTargetDependency */,
 			);
 			name = FlightTrackerUITests;
 			productName = FlightTrackerUITests;
-			productReference = 83C31BD91E17327F009B66B2 /* FlightTrackerUITests.xctest */;
+			productReference = 83C31C1B1E173698009B66B2 /* FlightTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83C31BAD1E17327F009B66B2 /* Project object */ = {
+		83C31BEC1E173697009B66B2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Suvayan Roy";
 				TargetAttributes = {
-					83C31BB41E17327F009B66B2 = {
+					83C31BF31E173697009B66B2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					83C31BCD1E17327F009B66B2 = {
+					83C31C0F1E173698009B66B2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 83C31BB41E17327F009B66B2;
+						TestTargetID = 83C31BF31E173697009B66B2;
 					};
-					83C31BD81E17327F009B66B2 = {
+					83C31C1A1E173698009B66B2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 83C31BB41E17327F009B66B2;
+						TestTargetID = 83C31BF31E173697009B66B2;
 					};
 				};
 			};
-			buildConfigurationList = 83C31BB01E17327F009B66B2 /* Build configuration list for PBXProject "FlightTracker" */;
+			buildConfigurationList = 83C31BEF1E173697009B66B2 /* Build configuration list for PBXProject "FlightTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,37 +234,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 83C31BAC1E17327F009B66B2;
-			productRefGroup = 83C31BB61E17327F009B66B2 /* Products */;
+			mainGroup = 83C31BEB1E173697009B66B2;
+			productRefGroup = 83C31BF51E173697009B66B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83C31BB41E17327F009B66B2 /* FlightTracker */,
-				83C31BCD1E17327F009B66B2 /* FlightTrackerTests */,
-				83C31BD81E17327F009B66B2 /* FlightTrackerUITests */,
+				83C31BF31E173697009B66B2 /* FlightTracker */,
+				83C31C0F1E173698009B66B2 /* FlightTrackerTests */,
+				83C31C1A1E173698009B66B2 /* FlightTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83C31BB31E17327F009B66B2 /* Resources */ = {
+		83C31BF21E173697009B66B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C31BC81E17327F009B66B2 /* LaunchScreen.storyboard in Resources */,
-				83C31BC51E17327F009B66B2 /* Assets.xcassets in Resources */,
-				83C31BC31E17327F009B66B2 /* Main.storyboard in Resources */,
+				83C31C0A1E173697009B66B2 /* LaunchScreen.storyboard in Resources */,
+				83C31C071E173697009B66B2 /* Assets.xcassets in Resources */,
+				83C31C051E173697009B66B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BCC1E17327F009B66B2 /* Resources */ = {
+		83C31C0E1E173698009B66B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BD71E17327F009B66B2 /* Resources */ = {
+		83C31C191E173698009B66B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,60 +274,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83C31BB11E17327F009B66B2 /* Sources */ = {
+		83C31BF01E173697009B66B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C31BC01E17327F009B66B2 /* ViewController.m in Sources */,
-				83C31BBD1E17327F009B66B2 /* AppDelegate.m in Sources */,
-				83C31BBA1E17327F009B66B2 /* main.m in Sources */,
+				83C31BFC1E173697009B66B2 /* AppDelegate.m in Sources */,
+				83C31BFF1E173697009B66B2 /* MasterViewController.m in Sources */,
+				83C31BF91E173697009B66B2 /* main.m in Sources */,
+				83C31C021E173697009B66B2 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BCA1E17327F009B66B2 /* Sources */ = {
+		83C31C0C1E173698009B66B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C31BD31E17327F009B66B2 /* FlightTrackerTests.m in Sources */,
+				83C31C151E173698009B66B2 /* FlightTrackerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C31BD51E17327F009B66B2 /* Sources */ = {
+		83C31C171E173698009B66B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C31BDE1E17327F009B66B2 /* FlightTrackerUITests.m in Sources */,
+				83C31C201E173698009B66B2 /* FlightTrackerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		83C31BD01E17327F009B66B2 /* PBXTargetDependency */ = {
+		83C31C121E173698009B66B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83C31BB41E17327F009B66B2 /* FlightTracker */;
-			targetProxy = 83C31BCF1E17327F009B66B2 /* PBXContainerItemProxy */;
+			target = 83C31BF31E173697009B66B2 /* FlightTracker */;
+			targetProxy = 83C31C111E173698009B66B2 /* PBXContainerItemProxy */;
 		};
-		83C31BDB1E17327F009B66B2 /* PBXTargetDependency */ = {
+		83C31C1D1E173698009B66B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83C31BB41E17327F009B66B2 /* FlightTracker */;
-			targetProxy = 83C31BDA1E17327F009B66B2 /* PBXContainerItemProxy */;
+			target = 83C31BF31E173697009B66B2 /* FlightTracker */;
+			targetProxy = 83C31C1C1E173698009B66B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83C31BC11E17327F009B66B2 /* Main.storyboard */ = {
+		83C31C031E173697009B66B2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83C31BC21E17327F009B66B2 /* Base */,
+				83C31C041E173697009B66B2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		83C31BC61E17327F009B66B2 /* LaunchScreen.storyboard */ = {
+		83C31C081E173697009B66B2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83C31BC71E17327F009B66B2 /* Base */,
+				83C31C091E173697009B66B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +336,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83C31BE01E17327F009B66B2 /* Debug */ = {
+		83C31C221E173698009B66B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		83C31BE11E17327F009B66B2 /* Release */ = {
+		83C31C231E173698009B66B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +426,7 @@
 			};
 			name = Release;
 		};
-		83C31BE31E17327F009B66B2 /* Debug */ = {
+		83C31C251E173698009B66B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -431,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		83C31BE41E17327F009B66B2 /* Release */ = {
+		83C31C261E173698009B66B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +448,7 @@
 			};
 			name = Release;
 		};
-		83C31BE61E17327F009B66B2 /* Debug */ = {
+		83C31C281E173698009B66B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		83C31BE71E17327F009B66B2 /* Release */ = {
+		83C31C291E173698009B66B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,7 +472,7 @@
 			};
 			name = Release;
 		};
-		83C31BE91E17327F009B66B2 /* Debug */ = {
+		83C31C2B1E173698009B66B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FlightTrackerUITests/Info.plist;
@@ -477,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		83C31BEA1E17327F009B66B2 /* Release */ = {
+		83C31C2C1E173698009B66B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FlightTrackerUITests/Info.plist;
@@ -491,40 +497,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83C31BB01E17327F009B66B2 /* Build configuration list for PBXProject "FlightTracker" */ = {
+		83C31BEF1E173697009B66B2 /* Build configuration list for PBXProject "FlightTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C31BE01E17327F009B66B2 /* Debug */,
-				83C31BE11E17327F009B66B2 /* Release */,
+				83C31C221E173698009B66B2 /* Debug */,
+				83C31C231E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83C31BE21E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTracker" */ = {
+		83C31C241E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C31BE31E17327F009B66B2 /* Debug */,
-				83C31BE41E17327F009B66B2 /* Release */,
+				83C31C251E173698009B66B2 /* Debug */,
+				83C31C261E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		83C31BE51E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */ = {
+		83C31C271E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C31BE61E17327F009B66B2 /* Debug */,
-				83C31BE71E17327F009B66B2 /* Release */,
+				83C31C281E173698009B66B2 /* Debug */,
+				83C31C291E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		83C31BE81E17327F009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */ = {
+		83C31C2A1E173698009B66B2 /* Build configuration list for PBXNativeTarget "FlightTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C31BE91E17327F009B66B2 /* Debug */,
-				83C31BEA1E17327F009B66B2 /* Release */,
+				83C31C2B1E173698009B66B2 /* Debug */,
+				83C31C2C1E173698009B66B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83C31BAD1E17327F009B66B2 /* Project object */;
+	rootObject = 83C31BEC1E173697009B66B2 /* Project object */;
 }
