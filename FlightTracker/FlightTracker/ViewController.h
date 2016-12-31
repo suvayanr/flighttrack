@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITableView *cellview;
+@property (strong, nonatomic) IBOutlet UITableView *tableview;
+
 
 @end
 
